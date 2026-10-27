@@ -1,0 +1,11 @@
+# 지도 타일 캐시, 파이썬 캐시
+.cache/
+__pycache__/
+.DS_Store
+
+# 구간 빌드 중간 산출물 (build.sh가 다시 만듦)
+segments/*/*.crop.osm.xml
+segments/*/*.origin
+segments/*/bg.trips.xml
+segments/*/bg.rou.xml
+segments/*/*.alt.xml
